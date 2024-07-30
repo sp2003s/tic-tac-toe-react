@@ -15,12 +15,12 @@ const TicTacToe = () => {
       return 0;
     }
     if(count%2 === 0){
-      e.target.innerHTML = `<img src = '${crossIcon}>`;
+      e.target.innerHTML = `<img src = "${crossIcon}">`;
       data[num] = "x"
       setCount(++count)
     }
     else{
-      e.target.innerHTML = `<img src = '${circleIcon}>`;
+      e.target.innerHTML = `<img src = "${circleIcon}">`;
       data[num] = "o"
       setCount(++count)
     }
